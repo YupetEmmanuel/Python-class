@@ -1,0 +1,45 @@
+
+# function for hello world
+
+def Hello_world(str):
+    print(str)
+    return;
+
+Hello_world("Hello world")
+
+
+#function Time
+def time(int):
+    print(int)
+
+    return;
+
+time(13)
+
+
+# add function
+
+List1=['James', 'John', 'Michael', 'Jean']
+
+   #function
+def add(str):
+    List1.append(str)
+    return;
+ 
+
+  #used_1
+add('Clarence')
+
+print(List1)
+ 
+ #used_2
+List1[2]='Jell'
+add(List1[2])
+
+print(List1)
+    
+
+
+
+    
+
