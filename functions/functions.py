@@ -1,4 +1,5 @@
 
+from datetime import datetime
 # function for hello world
 
 def Hello_world(str):
@@ -9,12 +10,12 @@ Hello_world("Hello world")
 
 
 #function Time
-def time(int):
-    print(int)
+def time():
+    Time_1 = datetime.now().strftime('%H:%M:%S')
+    print('current time:',Time_1)
 
-    return;
-
-time(13)
+    
+time()
 
 
 # add function
